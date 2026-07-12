@@ -71,32 +71,47 @@
         </div>
     </header>
 
-    <!-- Technical Competencies -->
+       <!-- Technical Competencies -->
     <section id="skills" class="relative z-10 max-w-6xl mx-auto py-20 px-6 border-t border-gray-900">
-        <h2 class="text-2xl font-bold tracking-tight text-white mb-8">Technical Competencies</h2>
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+            <div>
+                <span class="text-xs font-mono font-bold tracking-widest text-violet-400 uppercase">Capabilities Matrix</span>
+                <h2 class="text-2xl md:text-3xl font-black tracking-tight text-white mt-1">Technical Competencies</h2>
+            </div>
+            <p class="text-gray-400 text-sm max-w-md">Engineered full-stack applications require absolute mastery over relational modeling, robust business logic, and semantic client rendering layers.</p>
+        </div>
+        
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                <div class="text-violet-400 font-black text-xl mb-3">M</div>
-                <h3 class="font-bold text-gray-200 text-base">Database Architecture</h3>
-                <p class="text-xs text-gray-400 mt-2 leading-relaxed">Structuring non-relational modern storage layers via cloud-hosted MongoDB Atlas clusters and schema definitions via Mongoose.</p>
+            <!-- J - Java Backend Core -->
+            <div class="group bg-gray-900/50 p-6 rounded-2xl border border-gray-800 hover:border-violet-500/30 transition-all duration-300">
+                <div class="w-12 h-12 rounded-xl bg-violet-500/10 flex items-center justify-center text-violet-400 font-black text-xl mb-5 group-hover:scale-110 transition-transform">J</div>
+                <h3 class="font-bold text-gray-200 text-base">Java & Spring Boot</h3>
+                <p class="text-xs text-gray-400 mt-2 leading-relaxed">Developing robust enterprise backends using Java and the Spring Boot framework. Mapping RESTful API endpoints and handling model-view-controller validation rules.</p>
             </div>
-            <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                <div class="text-violet-400 font-black text-xl mb-3">E</div>
-                <h3 class="font-bold text-gray-200 text-base">Server & Core APIs</h3>
-                <p class="text-xs text-gray-400 mt-2 leading-relaxed">Robust server development using Node.js and Express.js runtimes, handling routing systems, middleware, and backend processing layers.</p>
+            
+            <!-- A - Architecture Persistence -->
+            <div class="group bg-gray-900/50 p-6 rounded-2xl border border-gray-800 hover:border-violet-500/30 transition-all duration-300">
+                <div class="w-12 h-12 rounded-xl bg-violet-500/10 flex items-center justify-center text-violet-400 font-black text-xl mb-5 group-hover:scale-110 transition-transform">A</div>
+                <h3 class="font-bold text-gray-200 text-base">Data Persistence (JPA)</h3>
+                <p class="text-xs text-gray-400 mt-2 leading-relaxed">Automating relational database handling using Spring Data JPA and Hibernate ORM. Optimizing query repositories, data constraints, and object model mapping.</p>
             </div>
-            <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                <div class="text-violet-400 font-black text-xl mb-3">R</div>
+            
+            <!-- V - View Implementation -->
+            <div class="group bg-gray-900/50 p-6 rounded-2xl border border-gray-800 hover:border-violet-500/30 transition-all duration-300">
+                <div class="w-12 h-12 rounded-xl bg-violet-500/10 flex items-center justify-center text-violet-400 font-black text-xl mb-5 group-hover:scale-110 transition-transform">V</div>
                 <h3 class="font-bold text-gray-200 text-base">Client Side Engine</h3>
-                <p class="text-xs text-gray-400 mt-2 leading-relaxed">Expert UI render systems built via React.js, single-page application routers, functional component states, and custom styling rules.</p>
+                <p class="text-xs text-gray-400 mt-2 leading-relaxed">Designing semantic interfaces using native HTML5, CSS3, and layout frameworks. Writing modern JavaScript (ES6+) asynchronous network scripts via browser Fetch API.</p>
             </div>
-            <div class="bg-gray-900 p-6 rounded-2xl border border-gray-800">
-                <div class="text-violet-400 font-black text-xl mb-3">N</div>
-                <h3 class="font-bold text-gray-200 text-base">Workflow & Tools</h3>
-                <p class="text-xs text-gray-400 mt-2 leading-relaxed">Continuous production workflows tracking version branches with Git/GitHub, endpoint sandbox validation using Postman testing suites.</p>
+            
+            <!-- A - Automation Tools -->
+            <div class="group bg-gray-900/50 p-6 rounded-2xl border border-gray-800 hover:border-violet-500/30 transition-all duration-300">
+                <div class="w-12 h-12 rounded-xl bg-violet-500/10 flex items-center justify-center text-violet-400 font-black text-xl mb-5 group-hover:scale-110 transition-transform">A</div>
+                <h3 class="font-bold text-gray-200 text-base">Automation & Workflow</h3>
+                <p class="text-xs text-gray-400 mt-2 leading-relaxed">Managing compilation pipelines and tracking dependencies with Apache Maven. Maintaining code history using Git controls and debugging JSON interfaces via Postman.</p>
             </div>
         </div>
     </section>
+
 
     <!-- Engineering Projects -->
        
